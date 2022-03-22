@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    margin-right: 12px;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    font-family: 'Prompt', sans-serif;
+}
+
+html,body {
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    align-items: center;
+}
+
+.logo {
+    font-size: 3.4rem;
+    margin-left: 2rem;
+}
+
+ul {
+    display: flex;
+    margin-right
+}
+
+ul li a:hover {
+    color: white;
+    margin: 0 4rem;
+    background-color: #555;
+    border-radius: 25px;
+    padding: 10px;
+    font-weight: bold;
+    transition: all .2s ease 0s;
+}
