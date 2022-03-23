@@ -13,7 +13,7 @@
 
 html,body {
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 header {
@@ -29,12 +29,11 @@ header {
 
 ul {
     display: flex;
-    margin-right
 }
 
 ul li a:hover {
     color: white;
-    margin 0 4rem;
+    margin: 0 4rem;
     background-color: #555;
     border-radius: 25px;
     padding: 10px;
@@ -69,4 +68,70 @@ ul li a:hover {
     left: 0;
     bottom: 0;
     filter: opacity(0.7);
+}
+
+section {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 4fr auto;
+}
+
+.vector_container img {
+    position: absolute;
+    width: 550px;
+    margin-top: 200px;
+    height: 450px;
+    left: 0;
+}
+
+/* Fade animation setup for vector arts */
+
+.vector_container img:nth-child(1) {
+    animation: fade1 15s infinite;
+    width: 12em;
+    height: 12em;
+    border-radius: 120px;
+}
+
+section .content {
+    width: 450px;
+    color: black;
+    position: absolute;
+    top: 14rem;
+    right: 10rem;
+    text-align: center;
+}
+
+section .content h1 {
+    font-size: 3rem;
+    margin-left: 1rem;
+}
+
+section .content p{
+    font-size: 0.75rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+    margin-left: 5rem;
+}
+
+section .content a {
+    width: 20px;
+    color: white;
+    background-color: #a3202a;
+    border-radius: 50px;
+    padding: 10px;
+    margin-top: 14rem;
+}
+
+section img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 0;
+    margin-top: 22rem;
+    margin-left: 15px;
+}
+
+.content {
+    align-items: center;
 }
